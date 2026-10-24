@@ -59,7 +59,7 @@ export default function Settings() {
 
     return (
         <>
-            <div className={`max-w-140`}>
+            <div className={`max-w-155`}>
                 <h1 className={`mb-5 text-[26px] font-serif font-bold ${IsLight ? 'text-[#211f1a]' : 'text-white'}`}>{t("settings.Settings")}</h1>
 
                 {/* Account Settings  */}

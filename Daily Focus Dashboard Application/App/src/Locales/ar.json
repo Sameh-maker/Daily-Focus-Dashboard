@@ -12,7 +12,7 @@
         "Daily Goal": "الهدف اليومي",
         "Todays Tasks": "مهام اليوم",
         "Focus Timer": "مؤقت التركيز",
-        "Focus Timer Period": "25:00 دقيقه",
+        "Focus Timer Period": "25:00 د",
         "Daily Goals": "الأهداف اليومية",
         "Notes": "الملاحظات",
         "Productivity header": "نظرة عامة على الإنتاجية",
@@ -148,5 +148,8 @@
         "Fri": "الجمعه",
         "Sat": "السبت",
         "Sun": "الاحد"
+    },
+    "menu": {
+        "Close": "خروج"
     }
 }

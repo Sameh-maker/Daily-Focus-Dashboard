@@ -48,7 +48,7 @@ export default function Login({ handle }) {
 
     return (
         <>
-            <div className="h-screen bg-[#f6f5f2] flex justify-center items-center">
+            <div className="h-screen bg-[#f6f5f2] p-5 flex justify-center items-center ">
                 {state === false ? (
                     <div className="bg-white w-100 py-10 px-9 rounded-[20px]">
                         <h1 className="text-center text-2xl font-bold mb-1.5 text-[#211f1a]">Welcome to DailyFocus</h1>
@@ -88,4 +88,3 @@ export default function Login({ handle }) {
     )
 }
 
-// The secret of getting ahead is getting started.

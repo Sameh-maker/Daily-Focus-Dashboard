@@ -147,5 +147,8 @@
         "Fri": "Fri",
         "Sat": "Sat",
         "Sun": "Sun"
+    },
+    "menu": {
+        "Close": "Exist"
     }
 }

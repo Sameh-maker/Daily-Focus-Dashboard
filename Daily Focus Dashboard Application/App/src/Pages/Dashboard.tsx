@@ -236,9 +236,9 @@ export default function Dashboard() {
                 </div>
 
                 {/* tasks representation, focus timer representaiton, goals representation, pinned notes */}
-                <div className='flex gap-3.5 flex-wrap mb-3.5'>
+                <div className='flex gap-3.5 mb-3.5 w-full flex-wrap'>
                     {/* Tasks */}
-                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none'>
+                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none max-[450px]:w-full'>
                         <div className='flex justify-between items-center mb-3.5'>
                             <p className='text-[14px] font-semibold'>{t("dashboard.Todays Tasks")}</p>
                             <button className='text-[12px] text-[#d98c2b] cursor-pointer' onClick={() => redirectToTasks()}>{t("dashboard.ViewAll")}</button>
@@ -257,7 +257,7 @@ export default function Dashboard() {
                     </div>
 
                     {/* Timer */}
-                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0]'>
+                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] max-[450px]:w-full'>
                         <div className='flex flex-col items-center'>
                             <div className='self-start mb-3.5'>
                                 <p className='text-[14px] font-semibold'>{t("dashboard.Focus Timer")}</p>
@@ -274,7 +274,7 @@ export default function Dashboard() {
                     </div>
 
                     {/* goals */}
-                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none'>
+                    <div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none max-[450px]:w-full'>
 
                         <div className='flex justify-between items-center mb-3.5'>
                             <p className='text-[14px] font-semibold'>{t("dashboard.Daily Goals")}</p>
@@ -304,7 +304,7 @@ export default function Dashboard() {
                     </div >
 
                     {/* notes */}
-                    < div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none' >
+                    < div className='grow shrink-0 md:flex-1 bg-white p-5 rounded-2xl border border-[#e8e6e0] h-66.25 overflow-y-scroll scrollbar-none max-[450px]:w-full' >
                         <div className='flex justify-between items-center mb-3.5'>
                             <div className='flex  gap-1.5 items-center'>
                                 <p className='text-[14px] font-semibold'>{t("dashboard.Notes")}</p>
