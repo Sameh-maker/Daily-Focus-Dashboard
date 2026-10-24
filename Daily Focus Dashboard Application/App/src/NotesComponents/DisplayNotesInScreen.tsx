@@ -11,7 +11,7 @@ export default function DisplayingNotesInScreen() {
 
     return (
         <>
-            <div className='grid grid-cols-2 gap-3'>
+            <div className='grid grid-cols-1 gap-3'>
                 {filteredNotes.map((note) => (
                     <div className='flex flex-col gap-2 bg-white rounded-2xl p-4 border border-[#e8e6e0] border-l-4 border-l-[#d98c2b]' key={note.NoteId}>
                         <div className='flex justify-between items-center'>

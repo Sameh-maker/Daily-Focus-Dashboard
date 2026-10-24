@@ -40,8 +40,8 @@ export default function Goals() {
         <>
             <div className='max-w-155'>
                 {/* Goals Header, Sentence, Button*/}
-                <div className="flex mb-5 justify-between items-center">
-                    <div>
+                <div className="md:flex mb-5 justify-between items-center">
+                    <div className='mb-6'>
                         <h1 className={`text-[26px] font-bold ${IsLight ? 'text-[#211f1a]' : 'text-white'} font-serif`}>{t("goals.Goals")}</h1>
                         <p className={`mt-1 ${IsLight ? 'text-[#8a877e]' : 'text-white'} text-[13px]`}>{t("goals.Complete Sentence", { goalsCompleted: completed, ActiveGoals: ActiveGoals })}</p>
                     </div>

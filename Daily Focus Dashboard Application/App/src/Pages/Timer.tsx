@@ -127,8 +127,8 @@ export default function Timer() {
         <>
             <div className='max-w-155'>
                 {/* Focus Timer Header, Date and Sentence */}
-                <div className="flex mb-5 justify-between items-center">
-                    <div>
+                <div className="mb-5 md:flex justify-between items-center">
+                    <div className='mb-2'>
                         <h1 className={`text-[26px] font-bold font-serif ${IsLight ? ' text-[#211f1a]' : ' text-white'}`} onClick={getTime}>{t("focus timer.Focus Timer")}</h1>
                         <p className={`mt-1 text-[13px] capitalize ${IsLight ? 'text-[#8a877e]' : 'text-white'}`}> {t("focus timer.Complete Sentence", { SessionsCompleted: sessionTask.length })}</p>
                     </div>

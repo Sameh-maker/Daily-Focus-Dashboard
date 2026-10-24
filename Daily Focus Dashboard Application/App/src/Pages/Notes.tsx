@@ -23,8 +23,8 @@ export default function Notes() {
         <>
             <div className='max-w-155'>
                 {/* Notes Header, Add Note Button */}
-                <div className={`flex mb-6 justify-between items-center`}>
-                    <div>
+                <div className={`md:flex mb-6 justify-between items-center`}>
+                    <div className='mb-6'>
                         <h1 className={`text-[26px] font-bold ${IsLight ? ' text-[#211f1a]' : ' text-white'} font-serif`}>{t("notes.Notes")}</h1>
                         <p className={`mt-1  ${IsLight ? 'text-[#8a877e]' : 'text-white'} text-[13px]`}>{t("notes.Notes Number", { NotesNumber: NotesNumber })}</p>
                     </div>

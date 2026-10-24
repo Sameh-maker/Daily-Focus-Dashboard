@@ -53,7 +53,7 @@ export default function CreateGoal() {
                     <input type="text" placeholder={t("goals.Goal Name Placeholder")} className="bg-[#f6f5f2] w-full border border-solid border-[#e8e6e0] text-[13px] text-[#211f1a] py-2.25 px-3 rounded-lg outline-none" ref={goalRef} />
                 </div>
 
-                <div className='flex gap-2.5 mb-4'>
+                <div className='flex flex-col mb-4 md:flex gap-2.5 md:flex-row'>
                     <div className='flex-1'>
                         <label className='text-[11px] mb-1.25 block text-[#8a877e]'>{t("goals.Track By")}</label>
                         <select className="bg-[#f6f5f2] w-full border border-solid border-[#e8e6e0] text-[13px] text-[#211f1a] py-2.25 px-3 rounded-lg outline-none" ref={trackRef}>

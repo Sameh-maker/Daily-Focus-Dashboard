@@ -115,16 +115,15 @@ export default function Analytics() {
         <>
             <div className="max-w-155">
                 {/* header */}
-                <div className="flex justify-between items-center mb-5">
+                <div className="mb-5 md:flex justify-between items-center">
                     <h1 className={`text-[26px] font-serif font-bold  ${IsLight ? 'text-[#211f1a]' : 'text-white'}`} onClick={dailyAvgFocus}>{t("analytics.Analytics")}</h1>
                     <span className={`text-[12px]  ${IsLight ? 'text-[#8a877e]' : 'text-white'}`}>{getFormatedDate()}</span>
                 </div>
 
-
                 {/* Cards Tasks Completed, Focus Time, Current Streak, Daily Goal */}
                 <div className="flex flex-wrap gap-3.5 mb-4">
 
-                    <div className="bg-white flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
+                    <div className="bg-white grow shrink-0 md:flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
                         <div className="flex justify-between items-center">
                             <div>
                                 <p className="text-[12px] mb-1.5 text-[#8a877e]">{t("analytics.Sessions Today")}</p>
@@ -133,7 +132,7 @@ export default function Analytics() {
                         </div>
                     </div>
 
-                    <div className="bg-white flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
+                    <div className="bg-white grow shrink-0 md:flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
                         <div className="flex justify-between items-center">
                             <div>
                                 <p className="text-[12px] mb-1.5 text-[#8a877e]">{t("analytics.Tasks Completed")}</p>
@@ -142,7 +141,7 @@ export default function Analytics() {
                         </div>
                     </div>
 
-                    <div className="bg-white flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
+                    <div className="bg-white grow shrink-0 md:flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
                         <div className="flex justify-between items-center">
                             <div>
                                 <p className="text-[12px] mb-1.5 text-[#8a877e]">{t("analytics.Current Streak")}</p>
@@ -151,7 +150,7 @@ export default function Analytics() {
                         </div>
                     </div>
 
-                    <div className="bg-white flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
+                    <div className="bg-white grow shrink-0 md:flex-1 py-4 px-4.5 rounded-2xl border border-[#e8e6e0]">
                         <div className="flex justify-between items-center">
                             <div>
                                 <p className="text-[12px] mb-1.5 text-[#8a877e]">{t("analytics.Avg Daily Focus")}</p>

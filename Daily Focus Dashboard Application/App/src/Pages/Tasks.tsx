@@ -68,8 +68,8 @@ export default function Tasks() {
         <>
             <div className='md:max-w-155'>
                 {/* Tasks Header, Date, Completed sentence */}
-                <div className={`flex mb-5 justify-between items-center`}>
-                    <div>
+                <div className={`mb-5 md:flex justify-between items-center`}>
+                    <div className='mb-2'>
                         <h1 className={`text-[26px] font-bold ${IsLight ? ' text-[#211f1a]' : ' text-white'} font-serif`}>{t("tasks.Tasks")}</h1>
                         <p className={`mt-1 ${IsLight ? 'text-[#8a877e]' : 'text-white'} text-[13px]`}>{t('tasks.Complete Sentence', { Completed: completedTasks, Total: totalTasks })}</p>
                     </div>
@@ -78,6 +78,7 @@ export default function Tasks() {
 
                 {/* Tasks Three Cards, Total, Completed, Pending */}
                 <Cards details={details} />
+
 
                 {/* Tasks Input, AddButton, CategoryButton */}
                 <div className="flex gap-2 mb-4" >

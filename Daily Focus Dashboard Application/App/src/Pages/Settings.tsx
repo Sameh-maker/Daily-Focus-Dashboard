@@ -98,7 +98,7 @@ export default function Settings() {
                     <div className="bg-white border border-solid border-[#e8e6e0] rounded-2xl p-5 mb-4">
 
                         {/* Settings Focus Timer Inputs focus, break */}
-                        <div className="flex flex-wrap gap-3 mb-4">
+                        <div className="flex flex-col mb-4 md:flex gap-3 md:flex-row">
                             <div className="flex flex-col flex-1">
                                 <label className="text-[12px] mb-1.5 text-[#8a877e]">{t("settings.Focus")}</label>
                                 <input type="number" min={0} step={5} name='focusTime' value={timeObject.focusTime} className="bg-[#f6f5f2] border border-solid border-[#e8e6e0] text-[14px] py-2.5 px-3.5 rounded-lg outline-none" onChange={handleChange} />
